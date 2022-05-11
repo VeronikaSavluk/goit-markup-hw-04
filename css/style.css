@@ -52,6 +52,7 @@ body {
 .link:hover,
 .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 /* Navigation */
 nav.navigation {
@@ -94,7 +95,9 @@ header.header {
 .icon-smartphone:hover {
   fill: var(--accent-color);
 }
-.contact-item:hover .link {
+.contact-item:hover .link,
+.contact-item:hover .icon-envelope,
+.contact-item:hover .icon-smartphone {
   color: var(--accent-color);
   fill: var(--accent-color)
 }
