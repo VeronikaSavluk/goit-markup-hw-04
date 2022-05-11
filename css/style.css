@@ -372,7 +372,6 @@ a.address-link:nth-child(n+2){
   margin-right: 0;
   padding: 0;
 }
-
 /* Portfolio page*/
 .portfolio-title {
   display: none;
@@ -395,7 +394,7 @@ a.address-link:nth-child(n+2){
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.filters li:not(:last-child){
+.portfolio-button-item:not(:last-child){
 margin-right: 8px;
 }
 .active {
@@ -406,15 +405,18 @@ color: var(--secondary-text-color)
 .portfolio-button:focus {
   background-color: var(--accent-btn-color);
   color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.25)
 }
 /* Projects */
 .project-items {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
-.project-item:hover  {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.project-item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.project-item:hover .link {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .project-item {
   width: 370px;
