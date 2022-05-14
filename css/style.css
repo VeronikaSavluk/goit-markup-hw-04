@@ -293,8 +293,6 @@ margin-right: 0;
 }
 .client-item {
   margin-right: 30px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
 }
 .client-item:last-child {
   margin-right: 0;
@@ -304,7 +302,8 @@ margin-right: 0;
   height: 92px;
   background-position: center;
   background-size: contain;
-  border: none;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
   fill: #afb1b8;
 }
 .client-icon-link:hover,
